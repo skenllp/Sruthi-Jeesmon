@@ -13,6 +13,9 @@
   --text-dark: #2c1a0e;
   --card-bg: rgba(255,255,255,0.9);
   --shadow: 0 8px 40px rgba(74,26,10,0.10);
+  --beige: #efe4cf;
+  --burgundy: #7a1f2e;
+  --antique-gold: #9c7a3c;
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -621,7 +624,8 @@ body {
 
 /* =================== FOOTER =================== */
 .footer-section {
-  background: #5a1e07;
+  background: var(--beige);
+  border-top: 1px solid rgba(156,122,60,0.35);
   padding: 80px 24px;
   text-align: center;
   position: relative;
@@ -632,7 +636,7 @@ body {
   position: absolute;
   font-family: 'Great Vibes', cursive;
   font-size: clamp(80px, 16vw, 200px);
-  color: rgba(255,255,255,0.06);
+  color: rgba(122,31,46,0.06);
   white-space: nowrap;
   user-select: none;
   pointer-events: none;
@@ -645,49 +649,49 @@ body {
 .footer-names {
   font-family: 'Great Vibes', cursive;
   font-size: clamp(44px, 7vw, 72px);
-  color: var(--gold-light);
+  color: var(--burgundy);
   margin-bottom: 16px;
 }
 
 .gold-line.short {
   width: 60px; height: 1.5px;
-  background: var(--gold-light);
+  background: var(--antique-gold);
   margin: 0 auto 20px;
 }
 
 .footer-date {
   font-size: 11px; letter-spacing: 4px;
-  color: rgba(255,255,255,0.6);
+  color: var(--antique-gold);
   margin-bottom: 16px;
 }
 
 .footer-quote {
   font-family: 'Cormorant Garamond', serif;
   font-style: italic; font-size: 17px;
-  color: rgba(255,255,255,0.75);
+  color: var(--burgundy);
 }
 
 .footer-thanks {
   font-size: 11px; letter-spacing: 5px;
-  color: rgba(255,255,255,0.6);
+  color: var(--antique-gold);
   margin-bottom: 10px;
 }
 
 .footer-share {
   margin-top: 36px; padding-top: 28px;
-  border-top: 1px solid rgba(212,168,71,0.25);
+  border-top: 1px solid rgba(156,122,60,0.35);
   max-width: 320px; margin-left: auto; margin-right: auto;
 }
 
 .footer-share-tag {
   font-size: 10px; letter-spacing: 4px;
-  color: rgba(255,255,255,0.55);
+  color: var(--antique-gold);
   margin-bottom: 8px;
 }
 
 .footer-share-name {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 22px; color: var(--gold-light);
+  font-size: 22px; color: var(--burgundy);
   letter-spacing: 1px;
 }
 
