@@ -1,8 +1,8 @@
-# Sruthi & Jeesmon – Engagement Invitation
+# Jees & Sruthi – Betrothal Ceremony
 
 Static website (HTML / CSS / JavaScript). No build step.
 
-**Engagement & Reception – Sunday, 27 December 2026**
+**Betrothal & Reception – Sunday, 27 December 2026**
 
 ## Deploy
 Upload the whole folder to any static host (Netlify, Vercel, GitHub Pages, cPanel…).

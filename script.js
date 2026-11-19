@@ -1,12 +1,12 @@
 // =============================================
-//   SRUTHI & JEESMON ENGAGEMENT INVITATION - script.js
+//   JEES & SRUTHI BETROTHAL CEREMONY - script.js
 // =============================================
 
 let musicPlaying = false;
 let fadeTimer = null;
 let countdownTimer = null;
 
-// Engagement: Sunday, 27 December 2026, 4:00 PM India Standard Time (UTC+05:30).
+// Betrothal: Sunday, 27 December 2026, 4:00 PM India Standard Time (UTC+05:30).
 // The explicit offset makes this correct for every visitor, whatever their timezone.
 const EVENT_TIME = new Date('2026-12-27T16:00:00+05:30');
 
@@ -109,7 +109,7 @@ function updateMusicIcon(playing) {
 function setupShareLink() {
   const a = document.getElementById('share-wa');
   if (!a) return;
-  const text = 'You are warmly invited to the engagement of Dr. Sruthi Anna Augustine & Dr. Jeesmon Saji Pulickan on 27 December 2026. ' + window.location.href;
+  const text = 'You are warmly invited to the Betrothal Ceremony of Dr. Jees Saji Pulickan & Dr. Sruthi Anna Augustine on Sunday, 27 December 2026. ' + window.location.href;
   a.href = 'https://wa.me/?text=' + encodeURIComponent(text);
 }
 

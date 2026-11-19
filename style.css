@@ -1,5 +1,5 @@
 /* =============================================
-   SRUTHI & JEESMON ENGAGEMENT INVITATION - style.css
+   JEES & SRUTHI BETROTHAL CEREMONY - style.css
    ============================================= */
 
 :root {
@@ -547,40 +547,6 @@ body {
 .infinity-sym {
   font-size: 40px; color: var(--gold-light);
   flex-shrink: 0;
-}
-
-/* =================== FEATURE PHOTO =================== */
-.feature-section {
-  position: relative;
-  height: clamp(480px, 48vw, 700px); overflow: hidden;
-}
-
-.feature-img {
-  width: 100%; height: 100%;
-  object-fit: cover; object-position: center 56%;
-  display: block;
-}
-
-.feature-overlay {
-  position: absolute; inset: 0;
-  background: linear-gradient(to top, rgba(74,26,10,0.75) 30%, transparent 80%);
-  display: flex; flex-direction: column;
-  align-items: center; justify-content: flex-end;
-  padding: 56px 24px;
-  text-align: center;
-}
-
-.feat-names {
-  font-family: 'Great Vibes', cursive;
-  font-size: clamp(48px, 8vw, 80px);
-  color: white;
-  text-shadow: 0 2px 20px rgba(0,0,0,0.4);
-}
-
-.feat-date {
-  font-size: 13px; letter-spacing: 3px;
-  color: rgba(255,255,255,0.8);
-  margin-top: 8px;
 }
 
 /* =================== RSVP =================== */
